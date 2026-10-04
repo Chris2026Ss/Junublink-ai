@@ -1,114 +1,71 @@
-JunubLink AI 🇸🇸
+# JunubLink AI
 
-Connecting South Sudanese communities with opportunities, information, and support
+JunubLink AI is a Juba-first information and opportunity portal for South Sudanese youth, students, traders, and communities. The project helps users find local jobs, scholarships, training opportunities, market reference prices, and scam-risk checks in a simple, mobile-friendly interface.
 
-JunubLink AI is an early-stage platform helping young people, displaced communities, and underserved groups in South Sudan discover jobs, scholarships, training, entrepreneurship programs, essential services, and community resources in one accessible place.
+## Project overview
 
-By reducing information gaps, JunubLink AI aims to ensure that people do not miss opportunities simply because they cannot find them.
+This repo currently contains a Streamlit prototype built in Python. It is designed as a lightweight web app that can run locally and be expanded with more verified community data and AI-powered recommendations.
 
-The Problem
+### Included features
+- Jobs in Juba
+- Scholarships and training opportunities
+- Market prices for common local goods
+- Scam check tool for suspicious offers
+- FAQ and contact section
 
-Many communities in South Sudan face:
+## Tech stack
+- Python
+- Streamlit
+- Pandas
 
-- Limited access to reliable opportunity information
-- Scattered jobs, scholarships, and training resources
-- Digital literacy and connectivity barriers
-- Difficulty finding relevant organizations and services
-- Limited access to employment and entrepreneurship pathways
-- Exclusion of IDPs and other vulnerable communities from digital opportunities
+## Repository structure
+- `app.py` — main Streamlit application
+- `Junublink.py` — compatibility wrapper entry point
+- `requirements.txt` — project dependencies
+- `README.md` — project documentation
+- `junublink_code.pdf` — supporting project document
+- `JunubLink_requirements.pdf` — supporting requirements/design document
+- `JunubLink_README.pdf` — supporting documentation
 
-The Solution
+## Run locally
 
-JunubLink AI organizes relevant opportunities and community information around each user’s needs, including their skills, location, education, and interests.
+1. Create and activate a virtual environment
+2. Install dependencies:
 
-The platform is designed to help users:
+```bash
+pip install -r requirements.txt
+```
 
-- Find jobs, internships, and remote-work opportunities
-- Discover scholarships, education programs, and training
-- Explore entrepreneurship and youth initiatives
-- Connect with community organizations and services
-- Access important community information
-- Receive personalized recommendations
+3. Start the app:
 
-Target Users
+```bash
+streamlit run app.py
+```
 
-JunubLink AI is designed for:
+## Project status
 
-- South Sudanese youth
-- Students, graduates, and job seekers
-- Internally Displaced Persons (IDPs)
-- Young women and persons with disabilities
-- Entrepreneurs
-- Community and youth-led organizations
-- Underserved communities
+This is an early-stage prototype. The app is intended to help users access useful opportunities and local information, but listings and prices should still be verified before real-world use.
 
-Planned AI Features
+## Intended use
 
-- Opportunity Matcher: Recommends relevant opportunities based on a user’s profile.
-- Scholarship Assistant: Explains eligibility requirements, deadlines, and application steps.
-- Job Assistant: Helps users identify suitable employment and remote-work opportunities.
-- Learning Assistant: Suggests training resources and career pathways.
-- Community Information Assistant: Organizes information about local services and opportunities.
+The app is built for:
+- South Sudanese youth and students
+- Job seekers and interns
+- Traders and small business owners
+- Community organizations
+- Families and users needing locally relevant information
 
-Vision
+## Notes
 
-«No young person should miss an opportunity simply because they could not find the information.»
+- The app is intentionally simple and low-friction for local use.
+- It does not currently connect to live external APIs or a production WhatsApp backend.
+- Any future WhatsApp or AI integration should be added deliberately and with proper validation and security review.
 
-JunubLink AI aims to build an inclusive digital bridge between people and opportunities, starting in South Sudan and eventually expanding across Africa.
-
-Roadmap
-
-Planned development includes:
-
-- Mobile application
-- Low-bandwidth, offline-friendly, and SMS/USSD access
-- Local-language support
-- Community organization directory
-- Personalized AI recommendations
-- Opportunity verification
-- Youth skills profiles
-- Regional expansion
-
-Technology
-
-JunubLink AI is currently an early-stage AI project. Potential technologies include:
-
-- Artificial intelligence and machine learning
-- Large language models
-- Web and mobile technologies
-- APIs and cloud services
-- Database systems
-
-Project Status
-
-Status: Early-stage prototype and development
-
-The platform is currently being developed and tested as an AI innovation project.
-
-Contributing and Collaboration
-
-We welcome collaboration from:
-
-- Developers and AI innovators
-- Designers
-- Youth organizations and NGOs
-- Community leaders
-- Education and employment organizations
-- Partners and mentors
-
-License
-
-This project is under development. Licensing terms will be added as the project progresses.
-
-Founder
+## Founder
 
 Kerwar Duop Yoam
-South Sudan 🇸🇸
+South Sudan
 
-Interested in technology, youth development, education, community development, climate action, and inclusive digital opportunities.
+## License
 
----
-
-Connecting people. Discovering opportunities. Strengthening communities.
-
-Built from South Sudan, with Africa in mind.
+This project is currently under development. Licensing terms will be added as the project matures.
