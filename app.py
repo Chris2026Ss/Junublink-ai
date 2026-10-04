@@ -287,7 +287,7 @@ elif page == "FAQ":
         st.write("Never pay upfront for a job or scholarship. Confirm the sender and check whether the organization exists in person or on official channels.")
 
     with st.expander("Why focus on Juba?"):
-        st.write("Juba is the main urban hub in South Sudan, so most opportunities, offices, schools, and NGOs are concentrated there. A local-first approach helps people use the app more easily.")
+        st.write("Juba is the main urban hub in South Sudan, so most opportunities, offices, schools, and NGOs are concentrated there. A local-first approach helps people use the app more easily and trust the information they receive.")
 
     with st.expander("Can this app help traders?"):
         st.write("Yes. Traders can use the market price section to compare costs and check local pricing trends before trading.")
